@@ -1,0 +1,290 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,letterpaper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% personal data
+\name{Faith}{Jackobs}
+
+\address{2218 Alta Vista Ave, Austin, TX, 78704}{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{(512) 638 5933}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{fjackobs@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{https://www.linkedin.com/in/faith-jackobs-119934120}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\small{Biochemistry undergraduate passionate about molecular biology and genetics research.}
+
+\section{Education}
+
+\vspace{5pt}
+
+\subsection{Academic Qualifications}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\cventry{2014-2018}{B.A. in Biochemistry}{Earlham College}{Richmond, IN}{}{\vspace{3pt}Graduated May 2018 \newline GPA 3.96  \newline Phi Beta Kappa, College and Departmental Honors \newline Earlham College Founder's Scholarship}}
+
+\end{itemize}
+
+\vspace{2pt}
+
+%\subsection{Scholarships}
+
+%\vspace{5pt}
+
+%\begin{itemize}
+
+%\item{\textbf{Founders' Scholarship, Earlham College} \textit{}
+
+%\vspace{3pt}
+
+%\small{Received full academic scholarship after competitive interview process, for Fall 2014 through Spring 2018.}}
+
+%\end{itemize}
+
+%\vspace{2pt}
+
+
+\subsection{Relevant Courses}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\textbf{Biochemistry Major, Earlham College} \textit{}
+
+\vspace{3pt}
+
+\small{Quantitative Chemical Analysis, Advanced Organic Chemistry, Thermodynamics and Kinetics, Biochemistry, Cellular Physiology, Molecular Biology, Microbiology, Human Genetics and Genomics, Anatomy and Physiology, Molecular Neuropharmacology, Elementary Statistics, Bioinformatics, Analytical Physics II, Introduction to Python.}}
+
+\vspace{6pt}
+
+\item{\textbf{Austin Community College} \textit{}
+
+\vspace{3pt}
+
+\small{Engineering Physics I, Introduction to Stem Cell Technology.}}
+
+
+\end{itemize}
+
+\section{Previous Research (2011-2018)}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item{\cventry{January 2018-Current}{Student Researcher with Dr. Emily Smith and Dr. Charlie Peck}{Earlham College}{Richmond, IN}{}{\vspace{3pt}Analyzed DNA sequencing data from previous year using mothur, helped improve DNA extraction protocol for Icelandic soil, extracted soil samples in Iceland for DNA sequencing.}}
+
+\vspace{6pt}
+
+\item{\cventry{May-July 2017}{Research Intern with Dr. Tor Savidge}{Baylor College of Medicine}{Houston, TX}{}{\vspace{3pt}Characterized carbonic anhydrase II and verified a cysteine target for s-nitrosylation using functional assays and iodoTMT assays.}}
+
+\vspace{5pt}
+
+\item{\cventry{August-December 2016}{Student Researcher with Dr. Emily Smith}{Earlham College}{Richmond, IN}{}{\vspace{3pt}Cultured human Caco2 and Calu3 cells in FBS and FB Essence to determine which facilitated more cell growth.}}
+
+\vspace{6pt}
+
+\item{\cventry{May-July 2016}{Research Intern with Dr. Shahid Baba}{Diabetes and Obesity Center, University of Louisville}{Louisville, KY}{}{\vspace{3pt}Assisted a post-doctorate with a project studying carnosine metabolism in adult mouse cardiomyocytes and created a protocol subjecting adult mouse cardiomyocytes to hypoxia and reoxygenation to model ischemia-reperfusion injury of heart tissue.}}
+
+\vspace{6pt}
+
+\item{\cventry{January-May 2016}{Student Researcher with Dr. Mike Deibel}{Earlham College}{Richmond, IN}{}{\vspace{3pt}Developed a method for quantifying water-soluble vitamins using high performance liquid chromatography.}}
+
+\vspace{6pt}
+
+\item{\cventry{June-August 2015}{Research Intern with Dr. Robert Cabrera}{Dell Pediatric Research Institute}{Austin, TX}{}{\vspace{3pt}Created and analyzed folate binding curves to determine concentrations of folate in patient blood serum.}}
+
+
+\vspace{6pt}
+
+\item{\cventry{2011--2013}{Research Intern with Dr. Greg Clark}{University of Texas}{Austin, TX}{}{\vspace{3pt}Studied the signaling effects of extracellular ATP on stomates in Arabidopsis.}}
+
+\end{itemize}
+
+\vspace{2pt}
+
+\subsection{Publications}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\small{Clark, G., Darwin, C., Mehta, V., \textbf{Jackobs, F.}, Perry, T., Hougaard, K., Roux, S. 2013. Effects of chemical inhibitors and apyrase enzyme further document a role for apyrases and extracellular ATP in the opening and closing of stomates in Arabidopsis. Plant Signaling and Behavior 8. DOI: 10.4161/psb.26093}}
+
+%Greg Clark, Cameron Darwin, Viraj Mehta, Faith Jackobs, Tyler Perry, Katia Hougaard & Stan Roux (2013) Effects of chemical inhibitors and apyrase enzyme further document a role for apyrases and extracellular ATP in the opening and closing of stomates in Arabidopsis, Plant Signaling & Behavior, 8:11, DOI: 10.4161/psb.26093
+
+\end{itemize}
+
+\vspace{2pt}
+
+\subsection{Published Abstracts and Presentations}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\small Bean, S., {\textbf{Jackobs, F.}, Mahayotheecharak, C., Mishra, A., Sbeta, S., Smith, E. 2016. Growth of human cancer cell lines in two different conditions. Presented at EPIC Exposition, Earlham College, Richmond, Indiana, April 19, 2017.}}
+
+\vspace{6pt}
+
+\item{\small{\textbf{Jackobs, F.}, Zhao, J., Baba, S. 2016. Method development for hypoxia/reoxygenation of adult mouse cardiomyocytes as a model for myocardial ischemia/reperfusion injuries. Presented at Science Division Undergraduate Research Conference, Earlham College, Richmond, Indiana, October 14, 2016.}}
+
+\end{itemize}
+
+\section{Technical and Personal skills}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item \textbf{Biology Lab Skills:} Pipetting, centrifugation, PCR, gel electrophoresis, ELISA, compound microscopy, cell culture (replacing media, passaging cells), cell counting with hemocytometer, plasmid cloning, cell transfection, isolation of adult mouse cardiomyocytes, protein extraction, SDS-PAGE, Western Blot, amineTMT and iodoTMT assays.
+
+\vspace{6pt}
+
+\item \textbf{Chemistry Lab Skills:} Thin layer chromatography, high performance liquid chromatography, column chromatography, distillation, extraction, recrystallization, organic synthesis reactions, analysis of IR and NMR spectrums.
+
+\vspace{6pt}
+
+\item \textbf{Computer and Programming Skills:} Write and execute basic Python code, write and execute scripts and work flows for the Unix shell, analyze microbial DNA sequencing data using mothur, use R  to perform statistical analysis and make graphs from data, perform data analysis using ImageJ and Excel (averages, standard deviation, standard error, T-tests, ANOVA), familiar with protein structure visualization using Molmol.
+
+\vspace{6pt}
+
+\item \textbf{Language:} Conversational in French.
+
+\end{itemize}
+
+\section{Non-Research Experiences}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item{\cventry{Spring 2017}{Job Shadow}{Cutting Edge Physical Therapy}{Richmond, IN}{}{\vspace{3pt}Watched and interacted with physical therapists and physical therapist assistants as they worked with patients.}}
+
+%\item{\cventry{2017, 2016, 2014}{Scholar-Athlete}{Women's Soccer, Earlham College}{Richmond, IN}{}{\vspace{3pt}Maintained a GPA above a 3.2 during the soccer season.}}
+
+%\vspace{6pt}
+
+%\item{\cventry{2014-2018}{Member, Shift Leader}{Equestrian Cooperative, Earlham College}{Richmond, IN}{}{\vspace{3pt}Works with other students to take care of horses and improve riding skills.}}
+
+%\vspace{6pt}
+
+%\newpage
+
+%\item{\cventry{Fall 2015}{Student}{France Study Abroad Program, Earlham College}{France}{}{\vspace{3pt}Lived in Nantes and studied history and culture for three weeks. Lived in the South of France and worked with an artisan for two weeks. Lived in Paris and studied art history, theatre, political science, and culture for two months.}}
+
+\end{itemize}
+
+%\newpage
+
+%\section{References}
+
+%\vspace{6pt}
+ 
+%\begin{itemize}
+
+%\item{\cventry{}{Department of Biology, Earlham College, Richmond, IN}{Dr. Peter Blair, Associate Professor}{}{}{\vspace{3pt}blairpe@earlham.edu \newline (765) 983-1517}}
+
+%\vspace{6pt}
+
+%\item{\cventry{}{Department of Biology, Earlham College, Richmond, IN}{Dr. Robert Rosenberg, Professor}{}{}{\vspace{3pt}rosenbo@earlham.edu \newline (765) 983-1464}}
+
+%\vspace{6pt}
+
+%\item{\cventry{}{Center for Precision Environmental Health, Baylor College of Medicine, Houston, TX}{Dr. Richard Finnell, Professor}{}{}{\vspace{3pt}richard.finnell@bcm.edu \newline (713) 798-4363}}
+
+%\vspace{6pt}
+
+%\subsection{Additional References}
+
+%\vspace{5pt}
+
+%\item{\cventry{}{Department of Pathology and Immunology, Baylor College of Medicine, Houston, TX}{Dr. Tor Savidge, Associate Professor}{}{}{\vspace{3pt}tor.savidge@bcm.edu \newline}}
+
+%\vspace{6pt}
+
+%\item{\cventry{}{Department of Molecular Biosciences, University of Texas, Austin, TX}{Dr. Greg Clark, Distinguished Senior Lecturer, Research Scientist}{}{}{\vspace{3pt}gbclark@utexas.edu \newline (512) 471-1074}}
+
+%\vspace{6pt}
+
+%\item{\cventry{}{Department of Medicine, University of Louisville, Louisville, KY}{Dr. Shahid Baba, Assistant Professor}{}{}{\vspace{3pt}spbaba01@louisville.edu \newline (502) 852-5834}}
+
+%\vspace{6pt}
+
+
+%\item{\cventry{}{Earlham College, Richmond, IN}{Charlie Peck, Professor of Computer Science}{}{}{\vspace{3pt}charliep@earlham.edu \newline (765) 983-1667}}
+
+%\vspace{6pt}
+
+
+%\end{itemize}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%-----       letter       ---------------------------------------------------------
+
+\end{document}
+
+
+%% end of file `template.tex'.
